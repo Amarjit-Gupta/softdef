@@ -4,3 +4,16 @@
   fill: yellow;
   stroke-width: 0.3;
 }
+
+.backgroundimg {
+  background-image: url("../assets/nagy.png");
+  background-size: 100% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:1024px) {
+  .backgroundimg {
+    background-size: cover;
+  }
+}

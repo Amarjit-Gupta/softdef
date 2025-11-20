@@ -15,7 +15,7 @@ const HeroBanner = () => {
     };
 
     return (
-        <div id="home" className="border border-[#192016] xl:h-[180vh] w-full" style={background}>
+        <div id="home" className="border border-[#192016] xl:h-[180vh] w-full backgroundimg">
             <div className="flex flex-col-reverse lg:flex-row mt-5">
                 <div className="h-125 lg:w-125 w-79 flex flex-col justify-around m-auto font-inter">
                     <div>
