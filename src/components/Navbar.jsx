@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className={`lg:w-110 lg:h-7 lg:top-0 text-gray-300 text-xl flex lg:justify-between flex-col lg:flex-row lg:sticky 
             fixed top-20 w-full h-full z-50 text-center  bg-[#192016] gap-10 ${menu ? "right-0" : "x1"} transition duration-1000`}>
                     <li className="pt-7 lg:pt-0"> <a href="#home" onClick={() => setMenu(false)}>Home</a></li>
-                    <li className='w-33 flex justify-between items-center relative  drop left-1/2 -translate-x-1/2 lg:left-auto lg:translate-x-0 border border-red-500'>Plants Type<IoMdArrowDropdown />
+                    <li className='w-33 flex justify-between items-center relative  drop left-1/2 -translate-x-1/2 lg:left-auto lg:translate-x-0'>Plants Type<IoMdArrowDropdown />
                         <div className='absolute top-[26px] w-30 rounded dropdown bg-[#20271d]'>
                             <ul>
                                 <li className='mt-2 cursor-pointer'> <a href="#plant" onClick={() => setMenu(false)}>Aglaonema</a> </li>
