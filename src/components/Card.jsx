@@ -15,8 +15,8 @@ export const Card1 = () => {
         <p>Many plants can help filter out pollutants and toxins from the air, such as formaldehyde, benzene, and trichloroethylene. This makes the air cleaner and healthier to breathe.</p>
         <div className=" flex justify-between pr-16"><button className="border border-gray-500 px-4 py-1 rounded">Explore</button><p className='mt-2 lg:mt-0'>01/<span className="text-[14px]">04</span></p></div>
       </div>
-      <span className="absolute top-0 left-0 w-80 h-80 border-t-[0.1px] border-l-[0.1px] border-gray-600 rounded-tl-[40px]"></span>
-      <span className="absolute bottom-0 right-0 w-80 h-80 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[40px]"></span>
+      <span className="absolute top-0 left-0 w-60 h-60 border-t-[0.1px] border-l-[0.1px] border-gray-600 rounded-tl-[40px]"></span>
+      <span className="absolute bottom-0 right-0 w-60 h-60 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[40px]"></span>
     </div>
   );
 }
@@ -33,8 +33,8 @@ export const Card2 = () => {
         <p>Many plants can help filter out pollutants and toxins from the air, such as formaldehyde, benzene, and trichloroethylene. This makes the air cleaner and healthier to breathe.</p>
         <div className="border border-[#262c23] flex justify-between pr-16"><button className="border border-gray-500 px-4 py-1 rounded">Explore</button><p className='mt-2 lg:mt-0'>02/<span className="text-[14px]">04</span></p></div>
       </div>
-      <span className="absolute top-0 left-0 w-80 h-80 border-t-[0.1px] border-l-[0.1px] border-gray-600 rounded-tl-[40px]"></span>
-      <span className="absolute bottom-0 right-0 w-80 h-80 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[40px]"></span>
+      <span className="absolute top-0 left-0 w-60 h-60 border-t-[0.1px] border-l-[0.1px] border-gray-600 rounded-tl-[40px]"></span>
+      <span className="absolute bottom-0 right-0 w-60 h-60 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[40px]"></span>
     </div>
   );
 }
@@ -51,8 +51,8 @@ export const Card3 = () => {
         <p>Many plants can help filter out pollutants and toxins from the air, such as formaldehyde, benzene, and trichloroethylene. This makes the air cleaner and healthier to breathe.</p>
         <div className="border border-[#262c23] flex justify-between pr-16"><button className="border border-gray-500 px-4 py-1 rounded">Explore</button><p className='mt-2 lg:mt-0'>03/<span className="text-[14px]">04</span></p></div>
       </div>
-      <span className="absolute top-0 left-0 w-80 h-80 border-t-[0.1px] border-l-[0.1px] border-gray-600 rounded-tl-[40px]"></span>
-      <span className="absolute bottom-0 right-0 w-80 h-80 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[40px]"></span>
+      <span className="absolute top-0 left-0 w-60 h-60 border-t-[0.1px] border-l-[0.1px] border-gray-600 rounded-tl-[40px]"></span>
+      <span className="absolute bottom-0 right-0 w-60 h-60 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[40px]"></span>
     </div>
   );
 }
@@ -69,8 +69,8 @@ export const Card4 = () => {
         <p>Many plants can help filter out pollutants and toxins from the air, such as formaldehyde, benzene, and trichloroethylene. This makes the air cleaner and healthier to breathe.</p>
         <div className="border border-[#262c23] flex justify-between pr-16"><button className="border border-gray-500 px-4 py-1 rounded">Explore</button><p className='mt-2 lg:mt-0'>04/<span className="text-[14px]">04</span></p></div>
       </div>
-      <span className="absolute top-0 left-0 w-80 h-80 border-t-[0.1px] border-l-[0.1px] border-gray-600 rounded-tl-[40px]"></span>
-      <span className="absolute bottom-0 right-0 w-80 h-80 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[40px]"></span>
+      <span className="absolute top-0 left-0 w-60 h-60 border-t-[0.1px] border-l-[0.1px] border-gray-600 rounded-tl-[40px]"></span>
+      <span className="absolute bottom-0 right-0 w-60 h-60 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[40px]"></span>
     </div>
   );
 }
