@@ -18,8 +18,8 @@ const Footer = () => {
                 </div>
                 <div className=" w-79">
                     <p className='font-bold text-white'>For Every Update.</p>
-                    <div className="border-2 rounded mt-7 flex items-center">
-                        <input type="text" className='w-54.5 text-white px-3 py-1 outline-0' placeholder='Enter Email' />
+                    <div className="border xl:border-2 rounded mt-7 flex items-center">
+                        <input type="text" className='w-55 xl:w-54.5 text-white px-3 py-1 outline-0' placeholder='Enter Email' />
                         <button className='py-1 px-3 bg-white text-black text-[12px] font-bold h-full rounded'>SUBSCRIBE</button>
                     </div>
                 </div>
