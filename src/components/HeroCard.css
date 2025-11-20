@@ -1,0 +1,38 @@
+.slick-prev,
+.slick-next {
+  bottom: 86px !important;
+  top: auto !important;
+  transform: none !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  z-index: 20 !important;
+}
+
+.slick-prev {
+  left: 7px !important;
+}
+
+.slick-next {
+  right: 1px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+}
+
+.slick-dots {
+  bottom: 20px !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  opacity: 1;
+}
+
+.card{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}

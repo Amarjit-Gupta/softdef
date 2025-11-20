@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 90px;
+}
+
+@theme {
+  --font-indie: "Indie Flower", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-inter);
+  }
+}
+
+
+.corner-border-box::before,
+.corner-border-box::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  border-image: linear-gradient(135deg, #e5d16f, gray) 1;
+}
+
+.corner-border-box::before {
+  top: -2;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+}
+
+.corner-border-box::after {
+  bottom: 0;
+  left: 0;
+  border-right: none;
+  border-top: none;
+}
+
+.corner-border-box1::before,
+.corner-border-box1::after {
+  border-image: linear-gradient(135deg, #55B000, #50790B) 1;
+}
+
+.blur-box {
+  background-color: rgba(255, 255, 255, 0.053);
+  backdrop-filter: blur(10px);
+}

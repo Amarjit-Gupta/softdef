@@ -1,0 +1,67 @@
+.plant-card .slick-prev,
+.plant-card .slick-next {
+  bottom: 57px !important;
+  top: auto !important;
+  transform: none !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  z-index: 20 !important;
+  background-color: transparent !important;
+}
+
+.plant-card .slick-prev {
+  left: 675px !important;
+}
+
+.plant-card .slick-next {
+  right: 67px !important;
+}
+
+.plant-card .slick-prev:before,
+.plant-card .slick-next:before {
+  font-size: 20px;
+}
+
+.plant-card .slick-dots {
+  bottom: -60px !important;
+}
+
+.plant-card .slick-dots li button:before {
+  opacity: 1;
+}
+
+.plant-card {
+  width: 850px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+}
+
+@media only screen and (max-width:1024px) {
+  .plant-card {
+    width: 316px;
+    height: 920px;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+  }
+
+  .plant-card .slick-prev,
+  .plant-card .slick-next {
+    bottom: 22px !important;
+  }
+
+  .plant-card .slick-prev {
+    left:168px !important;
+  }
+
+  .plant-card .slick-next {
+    right: 42px !important;
+  }
+
+  .plant-card .slick-dots {
+    bottom: -40px !important;
+  }
+}
