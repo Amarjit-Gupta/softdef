@@ -8,7 +8,7 @@ const Footer = () => {
                 <p className='text-white mt-5'>"From lush indoor greens to vibrant outdoor blooms, our plants are crafted to thrive and elevate your living environment."</p>
                 </div>
                 <div className=" text-gray-300 w-50">
-                    <p className='font-bold mb-5'>Quick Link's</p>
+                    <p className='font-bold mb-5 mt-5 xl:mt-0'>Quick Link's</p>
                     <ul>
                         <li className='underline mb-3'><a href="#home">Home</a></li>
                         <li className='underline mb-3'><a href="#plant">Type's of plant's</a></li>

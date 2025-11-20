@@ -16,7 +16,7 @@ const SectionTitle = () => {
                     <span className="absolute bottom-0 right-0 w-20 h-20 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[45px]"></span>
                     <div><img src={heroimg} alt="hero image" className=' w-60 m-auto -translate-y-17' /></div>
                     <div className='px-5  -mt-15'><p className='text-2xl'>Aglaonema plant</p>
-                        <p>The Aglaonema plant, commanly known as Chinese Evergreen known for its attrective foliage and ease of care</p></div>
+                        <p>The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care</p></div>
                     <div className=' flex justify-between px-7'><div className='text-2xl'>Rs. 300/-</div>
                         <div><button className='border border-white ml-2 p-2 rounded'><IoBagHandleOutline className='text-white' /></button></div></div>
                 </div>
@@ -25,7 +25,7 @@ const SectionTitle = () => {
                     <span className="absolute bottom-0 right-0 w-20 h-20 border-b-[0.1px] border-r-[0.1px] border-gray-600 rounded-br-[45px]"></span>
                     <div><img src={card1} alt="hero image" className=' w-60 m-auto -translate-y-17' /></div>
                     <div className='px-7  -mt-15'><p className='text-2xl'>Plantain Lilies</p>
-                        <p>Hostas are promarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes,</p></div>
+                        <p>Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes,</p></div>
                     <div className=' flex justify-between px-7'><div className='text-2xl'>Rs. 380/-</div>
                         <div><button className='border border-white ml-2 p-2 rounded'><IoBagHandleOutline className='text-white' /></button></div></div>
                 </div>

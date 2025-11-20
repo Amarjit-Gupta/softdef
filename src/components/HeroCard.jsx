@@ -41,7 +41,7 @@ const HeroCard = () => {
                 />
               </div>
               <div className=" w-[200px] mx-auto mt-[-30px] relative z-0">
-                <span className=" block">Indore Plant</span>
+                <span className=" block">Indoor Plant</span>
                 <span className="text-xl block">Aglaonema plant</span>
                 <button className="border py-1 px-4 rounded  mt-2">
                   Buy Now
@@ -57,7 +57,7 @@ const HeroCard = () => {
                 <img src={card1} alt="hero image" className="h-full w-full object-cover rounded-[20px]"/>
               </div>
               <div className=" w-[200px] mx-auto mt-[-30px] relative z-0">
-                <span className=" block">Indore Plant</span>
+                <span className=" block">Indoor Plant</span>
                 <span className="text-xl block">Plantain Lilies</span>
                 <button className="border py-1 px-4 rounded  mt-2">
                   Buy Now
@@ -73,7 +73,7 @@ const HeroCard = () => {
                 <img src={card2} alt="hero image" className="h-full w-full object-cover rounded-[20px]"/>
               </div>
               <div className=" w-[200px] mx-auto mt-[-30px] relative z-0">
-                <span className=" block">Indore Plant</span>
+                <span className=" block">Indoor Plant</span>
                 <span className="text-xl block">Agave plant</span>
                 <button className="border py-1 px-4 rounded  mt-2">
                   Buy Now

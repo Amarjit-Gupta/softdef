@@ -4,9 +4,9 @@ Follow the steps below to set up the project on your local system.
 
 1. Clone the Repository
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Amarjit-Gupta/softdef.git
 
-cd your-repo-name
+cd softdef
 
 2. Install Dependencies
 

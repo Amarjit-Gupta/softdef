@@ -5,7 +5,7 @@ import "./TestimonialCard.css";
 
 const TestimonialCard = () => {
     return (
-        <div className="border bg-[#192016]">
+        <div className="bg-[#192016]">
             <div id="more" className="corner-border-box relative inline-block p-2 rounded-xl text-2xl md:text-3xl left-1/2 -translate-x-1/2 text-white mt-10 lg:mt-23 mb-10 lg:mb-15">
                 Customer Review
             </div>
