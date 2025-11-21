@@ -17,3 +17,6 @@ npm install
 npm run dev
 
 4. Open the URL shown in the terminal (usually http://localhost:5173) in your browser.
+
+5. Project Live URL: https://softdef-project.netlify.app/
+
